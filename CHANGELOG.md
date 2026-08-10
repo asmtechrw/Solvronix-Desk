@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.1] — 2026-08-10
+
+### Changed
+- Orange and yellow Desk status pills now share the published semantic warning color instead of using the brand accent for orange pills, keeping warning states consistent across indicators, pills, badges, and alerts
+
+### Fixed
+- Switching Theme Studio preview scenes or opening a full settings section no longer auto-opens a contextual inspector; inspectors now open only after deliberately selecting an editable preview element
+- Published success, warning, error, and info colors now style the corresponding Desk status pills and badges, including cyan/info variants and accessible color-blind palette behavior
+
 ## [2.1.0] — 2026-08-07 — Icon Rail Sidebar
 
 ### Added
