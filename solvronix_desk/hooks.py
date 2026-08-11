@@ -7,7 +7,7 @@ app_email = "sales@solvronix.com"
 app_license = "MIT"
 app_color = "#E8610A"
 app_icon = "octicon octicon-paintcan"
-app_version = "2.1.0"
+app_version = "2.1.1"
 
 required_apps = []
 
@@ -18,7 +18,7 @@ web_include_js = ["/assets/solvronix_desk/js/login_theme.js?v=8"]
 # ── AUTHENTICATED DESK ASSETS ──────────────────────────────────────────────────
 # Query versions are bumped whenever an asset changes to invalidate browser cache.
 app_include_css = [
-    "/assets/solvronix_desk/css/solvronix_desk.css?v=52",
+    "/assets/solvronix_desk/css/solvronix_desk.css?v=53",
     "/assets/solvronix_desk/css/sidebar.css?v=31",
     "/assets/solvronix_desk/css/command_palette.css?v=4",
     "/assets/solvronix_desk/css/smart_home.css?v=7",
