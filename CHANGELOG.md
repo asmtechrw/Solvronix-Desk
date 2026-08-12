@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2] — 2026-08-11
+
+### Fixed
+- Grouped list-view buttons (Filter/clear-filter, sort field/sort-order) no longer render as visually separate pills — restored Bootstrap's joined-corner styling for `.btn-group` members that the theme's uniform button border-radius was overriding
+- In dark mode, the "Filters" button label was unreadable (near-black text on a near-black background) once filters were applied — `--bg-dark-gray` had collapsed to the page background color instead of staying a lighter chip surface, which broke contrast for any Frappe-native component pairing it with dark text
+- In dark mode, unchecked checkboxes (e.g. the "Has Variants" quick filter) rendered as the browser's default white box — Frappe's checkbox styling never sets an unchecked background color, so it fell back to the native control face; now given an explicit dark background
+
 ## [2.1.1] — 2026-08-10
 
 ### Changed

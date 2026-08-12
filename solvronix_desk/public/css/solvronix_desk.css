@@ -468,6 +468,17 @@ button.btn-primary:active {
   color: var(--st-accent) !important;
 }
 
+/* Restore joined corners for grouped buttons (Filter/Clear, Sort field/order, etc.) —
+   the uniform border-radius above otherwise makes every button in a .btn-group round independently. */
+.btn-group > .btn:not(:first-child) {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
 /* Icon-only Desk buttons must keep a real content box. Theme Studio's
    configurable horizontal button padding applies only to labelled buttons. */
 .btn.icon-btn {
